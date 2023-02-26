@@ -5,6 +5,8 @@ show dbs
 > use shop
 switched to db shop
 
+> show collections
+
 > db.products.insertOne({name: "A Book", price: 12.99})
 
 > db.products.find()
